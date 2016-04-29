@@ -1,9 +1,9 @@
 //
-//  LocalizeHelper.m
-//  Z24Global
+//  GSLocalize.h
+//  GSLocalize
 //
-//  Created by Airbook on 04/25/2016.
-//  Copyright © 2016 Airbook. All rights reserved.
+//  Created by Gantulga on 04/29/2016.
+//  Copyright © 2016 ZTech. All rights reserved.
 //
 
 #import "GSLocalize.h"
