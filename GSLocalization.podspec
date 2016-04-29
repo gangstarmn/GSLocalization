@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "GSLocalization"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "GSLocalization is a in app localization"
   s.description  = <<-DESC
                     In app localization. You can add it your app setting and use your bundle in localized string files
@@ -16,6 +16,6 @@
   s.framework = 'UIKit'
   s.requires_arc = true
   s.dependency 'ATLog'
-  s.prefix_header_file = 'GSLocalization/GSLocalizePrefixHeader.pch'
+  s.dependency 'GSLog'
 
   end
