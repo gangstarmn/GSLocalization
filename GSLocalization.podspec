@@ -1,0 +1,23 @@
+ Pod::Spec.new do |s|
+  s.name         = "GSLocalization"
+  s.version      = "0.0.1"
+  s.summary      = "GSLocalization is a in app localization"
+  s.description  = <<-DESC
+                    In app localization.
+                   DESC
+  s.homepage     = "https://github.com/gangstarmn/GSLocalization"
+  s.license      = "MIT"
+  s.author             = { "Gantulga" => "gangstarmn@gmail.com" }
+  s.platform = :ios, '8.0'
+  s.source = { :git => 'https://github.com/gangstarmn/GSLocalization.git', :tag => "#{s.version}" }
+  
+  s.source_files = "GSLocalization/**/*.{h,m}"
+  
+  s.resources = "GSLocalization/**/*.{xib,xcassets}"
+  
+  s.framework = 'UIKit'
+  s.requires_arc = true
+  s.dependency 'ATLog'
+  s.prefix_header_file = 'GSLocalization/GSLocalizePrefixHeader.pch'
+
+  end
