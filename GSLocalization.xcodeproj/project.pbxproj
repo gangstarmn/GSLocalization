@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		02D4993F55DFCB5BA7C002B1 /* libPods-GSLocalization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3D04CEE1837AA7F7CCA552 /* libPods-GSLocalization.a */; };
 		6DF9C9661CD3364E00B09E0A /* GSLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF9C9651CD3364E00B09E0A /* GSLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DF9C96F1CD3371400B09E0A /* GSLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF9C96D1CD3371400B09E0A /* GSLocalize.h */; };
+		6DF9C96F1CD3371400B09E0A /* GSLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF9C96D1CD3371400B09E0A /* GSLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF9C9701CD3371400B09E0A /* GSLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9C96E1CD3371400B09E0A /* GSLocalize.m */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,6 @@
 		6DF9C9671CD3364E00B09E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF9C96D1CD3371400B09E0A /* GSLocalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLocalize.h; sourceTree = "<group>"; };
 		6DF9C96E1CD3371400B09E0A /* GSLocalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLocalize.m; sourceTree = "<group>"; };
-		6DF9C9711CD3375F00B09E0A /* GSLocalizePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSLocalizePrefixHeader.pch; sourceTree = "<group>"; };
 		CB3D04CEE1837AA7F7CCA552 /* libPods-GSLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSLocalization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3971A935936BE1D90FF990 /* Pods-GSLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSLocalization.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSLocalization/Pods-GSLocalization.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +78,6 @@
 				6DF9C96E1CD3371400B09E0A /* GSLocalize.m */,
 				6DF9C9651CD3364E00B09E0A /* GSLocalization.h */,
 				6DF9C9671CD3364E00B09E0A /* Info.plist */,
-				6DF9C9711CD3375F00B09E0A /* GSLocalizePrefixHeader.pch */,
 			);
 			path = GSLocalization;
 			sourceTree = "<group>";
@@ -303,7 +301,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/GSLocalizePrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GSLocalization/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -321,7 +319,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/GSLocalizePrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GSLocalization/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

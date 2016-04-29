@@ -7,7 +7,7 @@
 //
 
 #import "GSLocalize.h"
-
+#import "GSLocalization.h"
 static GSLocalize* SingleLocalSystem = nil;
 
 @interface GSLocalize ()

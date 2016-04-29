@@ -4,6 +4,6 @@
 # use_frameworks!
 
 target 'GSLocalization' do
-    pod 'ATLog'
+    pod 'GSLog'
 end
 

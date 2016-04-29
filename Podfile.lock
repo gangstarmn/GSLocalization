@@ -1,10 +1,13 @@
 PODS:
   - ATLog (0.0.2)
+  - GSLog (0.0.1):
+    - ATLog
 
 DEPENDENCIES:
-  - ATLog
+  - GSLog
 
 SPEC CHECKSUMS:
   ATLog: e9c8afd11e4108381fdc862e9ccb793435f8c259
+  GSLog: be5eeffcc705ef25cb8ac729f5dd2d9a694a34e0
 
 COCOAPODS: 0.39.0
