@@ -83,7 +83,7 @@ static GSLocalize* SingleLocalSystem = nil;
 - (NSString *)localizedStringForKey:(NSString *)key bundleName:(NSString *)bundleName {
     NSBundle *bundle = [self.bundleDictionary objectForKey:bundleName];
     if (bundle) {
-        return [bundle localizedStringForKey:key value:@"" table:@"ZAccount"];
+        return [bundle localizedStringForKey:key value:@"" table:bundleName];
     }
     else {
         ATLogError(@"no language in This Bundle %@ %@",bundleName, self.currentLanguage);
