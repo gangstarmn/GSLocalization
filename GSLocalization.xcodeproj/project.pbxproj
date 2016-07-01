@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02D4993F55DFCB5BA7C002B1 /* libPods-GSLocalization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3D04CEE1837AA7F7CCA552 /* libPods-GSLocalization.a */; };
+		1BEBC190AC1C010DEDFFDF8A /* libPods-GSLocalization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9386370DE50B15D24CF2943 /* libPods-GSLocalization.a */; };
 		6DF9C9661CD3364E00B09E0A /* GSLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF9C9651CD3364E00B09E0A /* GSLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF9C96F1CD3371400B09E0A /* GSLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF9C96D1CD3371400B09E0A /* GSLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF9C9701CD3371400B09E0A /* GSLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9C96E1CD3371400B09E0A /* GSLocalize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F6DD6147A79C80A73BE7D01 /* Pods-GSLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSLocalization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSLocalization/Pods-GSLocalization.debug.xcconfig"; sourceTree = "<group>"; };
+		332006CB2A2B55FF8161D061 /* Pods-GSLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSLocalization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSLocalization/Pods-GSLocalization.debug.xcconfig"; sourceTree = "<group>"; };
 		6DF9C9621CD3364E00B09E0A /* GSLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF9C9651CD3364E00B09E0A /* GSLocalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSLocalization.h; sourceTree = "<group>"; };
 		6DF9C9671CD3364E00B09E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF9C96D1CD3371400B09E0A /* GSLocalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLocalize.h; sourceTree = "<group>"; };
 		6DF9C96E1CD3371400B09E0A /* GSLocalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLocalize.m; sourceTree = "<group>"; };
-		CB3D04CEE1837AA7F7CCA552 /* libPods-GSLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSLocalization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC3971A935936BE1D90FF990 /* Pods-GSLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSLocalization.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSLocalization/Pods-GSLocalization.release.xcconfig"; sourceTree = "<group>"; };
+		7E8D8990622C26A50B8EFF64 /* Pods-GSLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSLocalization.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSLocalization/Pods-GSLocalization.release.xcconfig"; sourceTree = "<group>"; };
+		F9386370DE50B15D24CF2943 /* libPods-GSLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSLocalization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,28 +29,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D4993F55DFCB5BA7C002B1 /* libPods-GSLocalization.a in Frameworks */,
+				1BEBC190AC1C010DEDFFDF8A /* libPods-GSLocalization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		159B07EFE555F3EF2DC393FB /* Frameworks */ = {
+		2F05664B190D2ABD5F655D47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB3D04CEE1837AA7F7CCA552 /* libPods-GSLocalization.a */,
+				F9386370DE50B15D24CF2943 /* libPods-GSLocalization.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		19B8408D819A10FCC25D9FD0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4F6DD6147A79C80A73BE7D01 /* Pods-GSLocalization.debug.xcconfig */,
-				FC3971A935936BE1D90FF990 /* Pods-GSLocalization.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		6DF9C9581CD3364E00B09E0A = {
@@ -58,8 +49,8 @@
 			children = (
 				6DF9C9641CD3364E00B09E0A /* GSLocalization */,
 				6DF9C9631CD3364E00B09E0A /* Products */,
-				19B8408D819A10FCC25D9FD0 /* Pods */,
-				159B07EFE555F3EF2DC393FB /* Frameworks */,
+				CB3554F04CD3103308D9412B /* Pods */,
+				2F05664B190D2ABD5F655D47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +73,15 @@
 			path = GSLocalization;
 			sourceTree = "<group>";
 		};
+		CB3554F04CD3103308D9412B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				332006CB2A2B55FF8161D061 /* Pods-GSLocalization.debug.xcconfig */,
+				7E8D8990622C26A50B8EFF64 /* Pods-GSLocalization.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -101,12 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF9C96A1CD3364E00B09E0A /* Build configuration list for PBXNativeTarget "GSLocalization" */;
 			buildPhases = (
-				20E1E96B9FF84FC79F0FB965 /* Check Pods Manifest.lock */,
+				381746BF6A9A6FBDBA24FB9E /* [CP] Check Pods Manifest.lock */,
 				6DF9C95D1CD3364E00B09E0A /* Sources */,
 				6DF9C95E1CD3364E00B09E0A /* Frameworks */,
 				6DF9C95F1CD3364E00B09E0A /* Headers */,
 				6DF9C9601CD3364E00B09E0A /* Resources */,
-				83A47AED26A4A3E0F88B8598 /* Copy Pods Resources */,
+				CC6599199DD7E3CCB70D4452 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,14 +159,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20E1E96B9FF84FC79F0FB965 /* Check Pods Manifest.lock */ = {
+		381746BF6A9A6FBDBA24FB9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,14 +174,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		83A47AED26A4A3E0F88B8598 /* Copy Pods Resources */ = {
+		CC6599199DD7E3CCB70D4452 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +295,7 @@
 		};
 		6DF9C96B1CD3364E00B09E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F6DD6147A79C80A73BE7D01 /* Pods-GSLocalization.debug.xcconfig */;
+			baseConfigurationReference = 332006CB2A2B55FF8161D061 /* Pods-GSLocalization.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -313,7 +313,7 @@
 		};
 		6DF9C96C1CD3364E00B09E0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC3971A935936BE1D90FF990 /* Pods-GSLocalization.release.xcconfig */;
+			baseConfigurationReference = 7E8D8990622C26A50B8EFF64 /* Pods-GSLocalization.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

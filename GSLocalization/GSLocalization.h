@@ -8,4 +8,3 @@
 
 #import <UIKit/UIKit.h>
 #import "GSLocalize.h"
-#import <GSLog/GSLog.h>

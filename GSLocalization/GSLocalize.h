@@ -16,7 +16,6 @@
 // "language" can be (for american english): "en", "en-US", "english". Analogous for other languages.
 #define GSLocalizeSetLanguage(language) [[GSLocalize getInstance] setLanguage:(language)]
 #define GSLocalizeAddBundle(bundleName) [[GSLocalize getInstance] addBundle:(bundleName)]
-#define GSLocalizeCurrentLanguage [[GSLocalize getInstance] currentLanguage]
 
 @interface GSLocalize : NSObject
 
@@ -27,7 +26,6 @@
 #pragma mark - Set Methods;
 
 - (void) setLanguage:(NSString*) lang;
-- (NSString *)currentLanguage ;
 #pragma mark - Localization;
 
 - (NSString *)localizedStringForKey:(NSString *)key bundleName:(NSString *)bundleName;
