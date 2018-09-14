@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "GSLocalization"
-  s.version      = "0.1.3"
+  s.version      = "0.1.4"
   s.summary      = "GSLocalization is a in app localization"
   s.description  = <<-DESC
                     In app localization. You can add it your app setting and use your bundle in localized string files

@@ -11,7 +11,9 @@
 static GSLocalize* SingleLocalSystem = nil;
 
 @interface GSLocalize ()
-@property (nonatomic, strong) NSMutableDictionary *bundleDictionary;
+@property (nonatomic, strong) NSMutableDictionary<NSString*, NSBundle*> *bundleDictionary;
+@property (nonatomic, strong) NSMutableDictionary<NSString*, NSBundle*> *languageBundleDictionary;
+
 @property (nonatomic, strong) NSString *currentLanguage;
 
 @end
@@ -35,6 +37,13 @@ static GSLocalize* SingleLocalSystem = nil;
         _bundleDictionary = [NSMutableDictionary dictionary];
     }
     return _bundleDictionary;
+}
+
+- (NSMutableDictionary *)languageBundleDictionary {
+    if (!_languageBundleDictionary) {
+        _languageBundleDictionary = [NSMutableDictionary dictionary];
+    }
+    return _languageBundleDictionary;
 }
 
 - (NSString *)currentLanguage {
@@ -74,7 +83,7 @@ static GSLocalize* SingleLocalSystem = nil;
     NSArray <NSString *> *bundleNameArray = [self.bundleDictionary allKeys];
     [self.bundleDictionary removeAllObjects];
     for (NSString *bundleName in  bundleNameArray) {
-        [self addBundle:bundleName];
+        [self addBundle:self.bundleDictionary[bundleName] bundleName:bundleName];
     }
 }
 
@@ -92,20 +101,24 @@ static GSLocalize* SingleLocalSystem = nil;
 }
 
 - (void)addBundle :(NSString *)bundleName {
-    NSBundle *bundle = [self.bundleDictionary objectForKey:bundleName];
-    if (bundle == nil) {
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:bundleName ofType:@"bundle"];
+    [self addBundle:[NSBundle mainBundle] bundleName:bundleName];
+}
+
+- (void)addBundle:(NSBundle *)bundle bundleName:(NSString *)bundleName {
+    NSBundle *oldBundle = [self.languageBundleDictionary objectForKey:bundleName];
+    if (oldBundle == nil) {
+        NSString *bundlePath = [bundle pathForResource:bundleName ofType:@"bundle"];
+        
         NSBundle *mainBundle = [NSBundle bundleWithPath:bundlePath];
         NSString *languagePath = [mainBundle pathForResource:self.currentLanguage ofType:@"lproj"];
-        
         NSBundle *languageBundle = [NSBundle bundleWithPath:languagePath];
         if (languageBundle) {
-            [self.bundleDictionary setObject:languageBundle forKey:bundleName];
+            [self.languageBundleDictionary setObject:languageBundle forKey:bundleName];
+            [self.bundleDictionary setObject:bundle forKey:bundleName];
         }
         else {
             ATLogError(@"no language in This Bundle %@ %@",bundleName, self.currentLanguage);
         }
     }
 }
-
 @end

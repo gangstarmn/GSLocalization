@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE67CC34185814C68A77A837D8939FD /* ATPrettyLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D5C51187461B8865FAD05700CFEFDB /* ATPrettyLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A1CD3FEF12657AD6A456C7AEDCACC45 /* ATLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 54143F5D6808C0F38B5EE56AAB6B1BA8 /* ATLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5AF0B91B8655882D840C0ADC6A0738C8 /* ATString.h in Headers */ = {isa = PBXBuildFile; fileRef = 817E4D5B42E859FB017DF6A2AF937E4C /* ATString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		624DB78C6D6ADC6B536367DC86F8B952 /* Pods-GSLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5BC7E07EF032503E44A1D3D2028499 /* Pods-GSLocalization-dummy.m */; };
+		921283C853F8B74FD2BF57593EABB0F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */; };
+		9D28812518F5FCB7293C86A8EE76DC59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */; };
+		A276CD5822C8A5808018D0FD72CD26DE /* ATString.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AD2C01E81C3139934EE8E4661CC36B /* ATString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8FB10598430CCB4A75A66DFEF2A8822 /* ATLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A62D5BFA56B2535AAD9F31A7892267CB /* ATLog-dummy.m */; };
+		CE4756DEE88D8A3493C38DFEB0D7F4F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */; };
+		FC2B80CB542D7408155A9B506D61678E /* at_preprocessor_map.h in Headers */ = {isa = PBXBuildFile; fileRef = 027DD1C75E67D170274E820BB88EAE64 /* at_preprocessor_map.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B09060484D7B2E1BBBE6C2308D5EA090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1BCCA80FD1EA84A4E11024620D835A3;
+			remoteInfo = ATLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027DD1C75E67D170274E820BB88EAE64 /* at_preprocessor_map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = at_preprocessor_map.h; path = ATLog/ATString/at_preprocessor_map.h; sourceTree = "<group>"; };
+		04BB2DF85D88EC4099B1708AF5C776BC /* Pods-GSLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSLocalization.release.xcconfig"; sourceTree = "<group>"; };
+		13ADEC07B0F6DA8A9EB19E39C0F25E1A /* Pods-GSLocalization-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSLocalization-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A44D06F9F4F24EE7A32F056183EA070 /* Pods-GSLocalization-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSLocalization-acknowledgements.plist"; sourceTree = "<group>"; };
+		1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		41BEFA614AE8092252A9EE3C9B79FD3E /* ATLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATLog-prefix.pch"; sourceTree = "<group>"; };
+		54143F5D6808C0F38B5EE56AAB6B1BA8 /* ATLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATLog.h; path = ATLog/ATLog/ATLog.h; sourceTree = "<group>"; };
+		645E9DC37AD9643356B183155C3A8B3A /* ATLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATLog.xcconfig; sourceTree = "<group>"; };
+		66888584A367A32A3FAC125ACBB3E267 /* libPods-GSLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GSLocalization.a"; path = "libPods-GSLocalization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D5C51187461B8865FAD05700CFEFDB /* ATPrettyLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATPrettyLog.h; path = ATLog/ATPrettyLog/ATPrettyLog.h; sourceTree = "<group>"; };
+		817E4D5B42E859FB017DF6A2AF937E4C /* ATString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATString.h; path = ATLog/ATString/ATString.h; sourceTree = "<group>"; };
+		888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AFA13D5BE566D52318BC94D9A5E25B3 /* libATLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libATLog.a; path = libATLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62D5BFA56B2535AAD9F31A7892267CB /* ATLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATLog-dummy.m"; sourceTree = "<group>"; };
+		B8AD2C01E81C3139934EE8E4661CC36B /* ATString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATString.m; path = ATLog/ATString/ATString.m; sourceTree = "<group>"; };
+		BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		DC7E216F384FD2130F510DA4BA6DF5E5 /* Pods-GSLocalization-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSLocalization-resources.sh"; sourceTree = "<group>"; };
+		DDC451D9679B6E7DF26BEE1E4BE98DCE /* Pods-GSLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSLocalization.debug.xcconfig"; sourceTree = "<group>"; };
+		E1FCEA9F66BAD6D909ED96ECB03FC22C /* GSLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLog.h; path = GSLog/GSLog.h; sourceTree = "<group>"; };
+		EE5BC7E07EF032503E44A1D3D2028499 /* Pods-GSLocalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSLocalization-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE9CA5FDE4C7803979F0DDF62B7E6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E831E2BC31C67026290D27DECCCB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4756DEE88D8A3493C38DFEB0D7F4F5 /* CoreGraphics.framework in Frameworks */,
+				9D28812518F5FCB7293C86A8EE76DC59 /* Foundation.framework in Frameworks */,
+				921283C853F8B74FD2BF57593EABB0F2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01765262DC9A8C14563014E6DA0B1426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B114DD29E3CA2F6580BCED791688F11D /* ATLog */,
+				9C7D0DDC9C8A56D5AA5608A3A1C1676B /* GSLog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43FD0A9B4F3DF3FE5CE863EC0C3F5DC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				645E9DC37AD9643356B183155C3A8B3A /* ATLog.xcconfig */,
+				A62D5BFA56B2535AAD9F31A7892267CB /* ATLog-dummy.m */,
+				41BEFA614AE8092252A9EE3C9B79FD3E /* ATLog-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ATLog";
+			sourceTree = "<group>";
+		};
+		5CA20A19B4766D0996AD81464219C3F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EF50446786AEC6657D2B86EE7F39785 /* Pods-GSLocalization */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				01765262DC9A8C14563014E6DA0B1426 /* Pods */,
+				91E16B64A7AB949B5694EC8E21F1FF31 /* Products */,
+				5CA20A19B4766D0996AD81464219C3F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF50446786AEC6657D2B86EE7F39785 /* Pods-GSLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				13ADEC07B0F6DA8A9EB19E39C0F25E1A /* Pods-GSLocalization-acknowledgements.markdown */,
+				1A44D06F9F4F24EE7A32F056183EA070 /* Pods-GSLocalization-acknowledgements.plist */,
+				EE5BC7E07EF032503E44A1D3D2028499 /* Pods-GSLocalization-dummy.m */,
+				DC7E216F384FD2130F510DA4BA6DF5E5 /* Pods-GSLocalization-resources.sh */,
+				DDC451D9679B6E7DF26BEE1E4BE98DCE /* Pods-GSLocalization.debug.xcconfig */,
+				04BB2DF85D88EC4099B1708AF5C776BC /* Pods-GSLocalization.release.xcconfig */,
+			);
+			name = "Pods-GSLocalization";
+			path = "Target Support Files/Pods-GSLocalization";
+			sourceTree = "<group>";
+		};
+		91E16B64A7AB949B5694EC8E21F1FF31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFA13D5BE566D52318BC94D9A5E25B3 /* libATLog.a */,
+				66888584A367A32A3FAC125ACBB3E267 /* libPods-GSLocalization.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7D0DDC9C8A56D5AA5608A3A1C1676B /* GSLog */ = {
+			isa = PBXGroup;
+			children = (
+				E1FCEA9F66BAD6D909ED96ECB03FC22C /* GSLog.h */,
+			);
+			name = GSLog;
+			path = GSLog;
+			sourceTree = "<group>";
+		};
+		B114DD29E3CA2F6580BCED791688F11D /* ATLog */ = {
+			isa = PBXGroup;
+			children = (
+				027DD1C75E67D170274E820BB88EAE64 /* at_preprocessor_map.h */,
+				54143F5D6808C0F38B5EE56AAB6B1BA8 /* ATLog.h */,
+				71D5C51187461B8865FAD05700CFEFDB /* ATPrettyLog.h */,
+				817E4D5B42E859FB017DF6A2AF937E4C /* ATString.h */,
+				B8AD2C01E81C3139934EE8E4661CC36B /* ATString.m */,
+				43FD0A9B4F3DF3FE5CE863EC0C3F5DC4 /* Support Files */,
+			);
+			name = ATLog;
+			path = ATLog;
+			sourceTree = "<group>";
+		};
+		C0FEB5BC00BD5AFA53416A3538FFE0E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD88DCD5873E78C5D6177D17DD10EFFE /* CoreGraphics.framework */,
+				888156FA7EF8DE87950E8D5F409FB575 /* Foundation.framework */,
+				1ACF330A72DC40E450388407F7DFB2F7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80FE06F52D901DBF87752E6F5A062A68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC615CAE61802F768D8E900A97B2A102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2B80CB542D7408155A9B506D61678E /* at_preprocessor_map.h in Headers */,
+				4A1CD3FEF12657AD6A456C7AEDCACC45 /* ATLog.h in Headers */,
+				2BE67CC34185814C68A77A837D8939FD /* ATPrettyLog.h in Headers */,
+				5AF0B91B8655882D840C0ADC6A0738C8 /* ATString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1748FE0055459FC7F51F22D6E33252AA /* Pods-GSLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14EE64E9D109742077A4F6C9A0A7D20B /* Build configuration list for PBXNativeTarget "Pods-GSLocalization" */;
+			buildPhases = (
+				80FE06F52D901DBF87752E6F5A062A68 /* Headers */,
+				711F81AF794CD1D2AC58655E9531969F /* Sources */,
+				0DE9CA5FDE4C7803979F0DDF62B7E6BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DAB86BE52ECC65DE8F34A0A471D91E /* PBXTargetDependency */,
+			);
+			name = "Pods-GSLocalization";
+			productName = "Pods-GSLocalization";
+			productReference = 66888584A367A32A3FAC125ACBB3E267 /* libPods-GSLocalization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1BCCA80FD1EA84A4E11024620D835A3 /* ATLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E94C002A7C868457F86EBCE8CC4DC5 /* Build configuration list for PBXNativeTarget "ATLog" */;
+			buildPhases = (
+				FC615CAE61802F768D8E900A97B2A102 /* Headers */,
+				F3F885606717501A8B3CAA990EDDC4F0 /* Sources */,
+				D4E831E2BC31C67026290D27DECCCB84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATLog;
+			productName = ATLog;
+			productReference = 9AFA13D5BE566D52318BC94D9A5E25B3 /* libATLog.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 91E16B64A7AB949B5694EC8E21F1FF31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1BCCA80FD1EA84A4E11024620D835A3 /* ATLog */,
+				1748FE0055459FC7F51F22D6E33252AA /* Pods-GSLocalization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711F81AF794CD1D2AC58655E9531969F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624DB78C6D6ADC6B536367DC86F8B952 /* Pods-GSLocalization-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F885606717501A8B3CAA990EDDC4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FB10598430CCB4A75A66DFEF2A8822 /* ATLog-dummy.m in Sources */,
+				A276CD5822C8A5808018D0FD72CD26DE /* ATString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DAB86BE52ECC65DE8F34A0A471D91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATLog;
+			target = D1BCCA80FD1EA84A4E11024620D835A3 /* ATLog */;
+			targetProxy = B09060484D7B2E1BBBE6C2308D5EA090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5561CA4C9AC207C1BF8F7A3E8A70A000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645E9DC37AD9643356B183155C3A8B3A /* ATLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ATLog/ATLog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ATLog;
+				PRODUCT_NAME = ATLog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EF0B3285FFB956234E23C262AC7D329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BB2DF85D88EC4099B1708AF5C776BC /* Pods-GSLocalization.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA8D900D5B7418AB6370BAC425378A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC451D9679B6E7DF26BEE1E4BE98DCE /* Pods-GSLocalization.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE14D52CCB39EFAFBE88037203FC0CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645E9DC37AD9643356B183155C3A8B3A /* ATLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ATLog/ATLog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ATLog;
+				PRODUCT_NAME = ATLog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14EE64E9D109742077A4F6C9A0A7D20B /* Build configuration list for PBXNativeTarget "Pods-GSLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8D900D5B7418AB6370BAC425378A6B /* Debug */,
+				8EF0B3285FFB956234E23C262AC7D329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E94C002A7C868457F86EBCE8CC4DC5 /* Build configuration list for PBXNativeTarget "ATLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE14D52CCB39EFAFBE88037203FC0CA1 /* Debug */,
+				5561CA4C9AC207C1BF8F7A3E8A70A000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
