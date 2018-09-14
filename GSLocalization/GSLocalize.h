@@ -32,7 +32,7 @@
 
 - (NSString *)localizedStringForKey:(NSString *)key bundleName:(NSString *)bundleName;
 
-- (void)addBundle :(NSString *)bundleName;
-
+- (void)addBundle:(NSString *)bundleName;
+- (void)addBundle:(NSBundle *)bundle bundleName:(NSString *)bundleName;
 @end
 
