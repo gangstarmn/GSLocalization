@@ -90,7 +90,7 @@ static GSLocalize* SingleLocalSystem = nil;
 #pragma mark - Localization;
 
 - (NSString *)localizedStringForKey:(NSString *)key bundleName:(NSString *)bundleName {
-    NSBundle *bundle = [self.bundleDictionary objectForKey:bundleName];
+    NSBundle *bundle = [self.languageBundleDictionary objectForKey:bundleName];
     if (bundle) {
         return [bundle localizedStringForKey:key value:@"" table:bundleName];
     }
