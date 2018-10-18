@@ -81,10 +81,11 @@ static GSLocalize* SingleLocalSystem = nil;
 - (void) setLanguage:(NSString*) lang {
     self.currentLanguage = lang;
     NSArray <NSString *> *bundleNameArray = [self.bundleDictionary allKeys];
-    [self.bundleDictionary removeAllObjects];
+    [self.languageBundleDictionary removeAllObjects];
     for (NSString *bundleName in  bundleNameArray) {
         [self addBundle:self.bundleDictionary[bundleName] bundleName:bundleName];
     }
+    [self setCurrentLanguage:self.currentLanguage];
 }
 
 #pragma mark - Localization;
